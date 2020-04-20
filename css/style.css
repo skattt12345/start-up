@@ -336,11 +336,14 @@ body {
   text-align: center;
 }
 
-.user__image {
+.user__images {
   position: relative;
 }
-.user__image:hover .user__hover {
+.user__images:hover .user__hover {
   height: 100%;
+}
+.user__images img {
+  max-width: 100%;
 }
 .user__hover {
   width: 100%;
