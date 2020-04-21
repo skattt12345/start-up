@@ -332,18 +332,19 @@ body {
   font-size: 0;
   justify-content: space-between;
 }
-.users__column {
+.users__col {
   text-align: center;
 }
 
-.user__images {
+.user__image {
   position: relative;
 }
-.user__images:hover .user__hover {
+.user__image:hover .user__hover {
   height: 100%;
 }
-.user__images img {
+.user__image img {
   max-width: 100%;
+  margin: 0px 0px 30px 0px;
 }
 .user__hover {
   width: 100%;
